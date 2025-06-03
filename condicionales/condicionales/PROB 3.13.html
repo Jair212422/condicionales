@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Costo del Pasaje - Viaje de Estudios</title>
+  <link rel="stylesheet" href="../styles/estilo.css" />
+</head>
+<body>
+  <h1>Costo del Pasaje para Viaje de Estudios</h1>
+  <h3>Los alumnos de una escuela desean realizar un viaje de estudios, 
+    pero requieren determinar cuánto les costará el pasaje, consideran
+    do que las tarifas del autobús son las siguientes: si son más de 100 
+    alumnos, el costo es de $20; si son entre 50 y 100, $35; entre 20 y 
+    49, $40, y si son menos de 20 alumnos, $70 por cada uno.</h3>
+
+  <label for="numAlumnos">Número de alumnos:</label>
+  <input type="number" id="numAlumnos" min="1" />
+
+  <button onclick="calcularCostoPasaje()">Calcular costo por alumno</button>
+
+  <p id="resultado"></p>
+<nav>
+  <ul>
+    <li><a href="../INDEX.html">MENU PRINCIPAL</a></li>
+</ul>
+</nav>
+  <script src="../scripts/script 3.13.js"></script>
+</body>
+</html>

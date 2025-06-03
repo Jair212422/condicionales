@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Vacaciones - Costo de Pasaje</title>
+  <link rel="stylesheet" href="../styles/estilo.css" />
+</head>
+<body>
+  <h1>¿A dónde puedes ir de vacaciones?</h1>
+  <h3>Represente un algoritmo mediante un diagrama de flujo y el pseudocódigo para determinar a qué lugar podrá ir de vacaciones una persona, considerando que la línea de autobuses “La tortuga” cobra por kilómetro recorrido. Se debe considerar el costo del pasaje tanto de ida, como de vuelta; los datos que se conocen y que son fijos son: México, 750 km; P.V., 800 km; Acapulco, 1200 km, y Cancún, 1800 km. También se debe considerar la posibilidad de tener que quedarse en casa.</h3>
+  <label for="costoKm">Costo por kilómetro:</label>
+  <input type="number" id="costoKm" min="0" step="0.01"><br><br>
+
+  <label for="presupuesto">Presupuesto disponible:</label>
+  <input type="number" id="presupuesto" min="0" step="0.01"><br><br>
+
+  <button onclick="determinarDestino()">Calcular destino</button>
+
+  <div id="resultadoDestino"></div>
+  <script src="../scripts/SCRIPTS.js">
+  </script>
+  <nav>
+    <ul>
+     <li><a href="../INDEX.html">MENU PRINCIPAL</a></li>
+    </ul>
+  </nav>
+</body>
+</html>

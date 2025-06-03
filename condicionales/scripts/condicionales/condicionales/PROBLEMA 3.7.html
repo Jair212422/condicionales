@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Problema 3.7</title>
+  <link rel="stylesheet" href="../styles/estilo.css" />
+</head>
+<body>
+  <h1>Asignación de Becas a estudiantes</h1>
+  <h3>El presidente de la república ha decidido estimular a todos los estudiantes de una universidad mediante la asignación de becas mensuales, para esto se tomarán en consideración los siguientes criterios:
+    Para alumnos mayores de 18 años con promedio mayor o igual a 9, la beca será de $2000.00; con promedio mayor o igual a 7.5, de $1000.00; para los promedios menores de 7.5 pero mayores o iguales a 6.0, de $500.00; a los demás se les enviará una carta de invitación incitándolos a que estudien más en el próximo ciclo escolar.
+    A los alumnos de 18 años o menores de esta edad, con promedios mayores o iguales a 9, se les dará $3000; con promedios menores a 9 pero mayores o iguales a 8, $2000; para los alumnos con promedios menores a 8 pero mayores o iguales a 6, se les dará $100, y a los alumnos que tengan promedios menores a 6 se les enviará carta de invitación. </h3>
+  <label for="edad">Edad del estudiante:</label>
+  <input type="number" id="edad" min="0"><br><br>
+
+  <label for="promedio">Promedio del estudiante:</label>
+  <input type="number" id="promedio" min="0"><br><br>
+
+  <button onclick="calcularBeca()">Calcular beca</button>
+
+  <div id="resultado"></div>
+<script src="../scripts/SCRIPTS.js"></script>
+<nav>
+<ul>
+  <li><a href="../INDEX.html">MENU PRINCIPAL</a></li>
+</ul>
+</nav>
+</body>
+</html>

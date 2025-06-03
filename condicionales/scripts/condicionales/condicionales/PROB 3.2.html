@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sueldo Semanal</title>
+  <link rel="stylesheet" href="../styles/estilo.css" />
+</head>
+<body>
+  <h1>Calcular Sueldo Semanal</h1>
+  <h3>Realice un algoritmo para determinar el sueldo semanal de un trabajador con base en las horas trabajadas y el pago por hora, considerando que después de las 40 horas cada hora se considera como excedente y se paga el doble.</h3>
+  <label for="horas">Horas trabajadas:</label>
+  <input type="number" id="horas" min="0" />
+  <label for="pago">Pago por hora:</label>
+  <input type="number" id="pago" min="0" />
+
+  <button onclick="calcularSueldo()">Calcular Sueldo</button>
+
+  <p id="resultado"></p>
+  <nav>
+    <ul>
+        <li><a href="../INDEX.html">MENU PRINCIPAL</a></li>
+    </ul>
+</nav>
+  <script src="../scripts/SCRIPT 3.2.js"></script>
+</body>
+</html>

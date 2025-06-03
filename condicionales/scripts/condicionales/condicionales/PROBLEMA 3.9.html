@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Problema 3.9 - Seguro de Autos</title>
+  <link rel="stylesheet" href="../styles/estilo.css" />
+</head>
+<body>
+  <h1>Cálculo de Póliza de Seguro</h1>
+  <h3>Una compañía de seguros para autos ofrece dos tipos de póliza: cobertura amplia (A) y daños a terceros (B). Para el plan A, la cuota base es de $1,200, y para el B, de $950. A ambos planes se les carga 10% del costo si la persona que conduce tiene por hábito beber alcohol, 5% si utiliza lentes, 5% si padece alguna enfermedad –como deficiencia cardiaca o diabetes–, y si tiene más de 40 años, se le carga 20%, de lo contrario sólo 10%. Todos estos cargos se realizan sobre el costo base. </h3>
+  <p>Tipo de póliza (A o B):</p>
+  <input type="text" id="tipoPoliza">
+
+  <p>Edad del conductor:</p>
+  <input type="number" id="edad">
+
+  <p>¿Consume alcohol? (sí = 1, no = 0)</p>
+  <input type="number" id="alcohol">
+
+  <p>¿Usa lentes? (sí = 1, no = 0)</p>
+  <input type="number" id="lentes">
+
+  <p>¿Tiene enfermedad (cardíaca o diabetes)? (sí = 1, no = 0)</p>
+  <input type="number" id="enfermedad">
+
+  <br><br>
+  <button onclick="calcularPoliza()">Calcular costo total</button>
+
+  <p id="resultado"></p>
+  <script src="../scripts/SCRIPTS.js"></script>
+  <ul>
+    <li><a href="../INDEX.html">MENU PRINCIPAL</a></li>
+</ul>
+</nav>
+</body>
+</html>
